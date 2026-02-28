@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #f4f6fb;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* HERO */
+.hero {
+    background: linear-gradient(135deg, #1f3cff, #4e6cff);
+    color: white;
+    text-align: center;
+    padding: 70px 20px;
+}
+
+.hero h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+/* BUTTON */
+.btn {
+    background: white;
+    color: #1f3cff;
+    padding: 12px 25px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+}
+
+/* SECTIONS */
+.section {
+    padding: 50px 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.section h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #1f3cff;
+}
+
+/* SERVICES */
+.services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.card h3 {
+    margin-bottom: 10px;
+}
+
+.card span {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #1f3cff;
+}
+
+/* WHY SECTION */
+.why ul {
+    list-style: none;
+    max-width: 600px;
+    margin: auto;
+}
+
+.why li {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+/* STEPS */
+.steps {
+    max-width: 500px;
+    margin: auto;
+    font-size: 16px;
+}
+
+.steps li {
+    margin: 10px 0;
+}
+
+/* CONTACT */
+.contact {
+    text-align: center;
+}
+
+.contact p {
+    margin: 10px 0;
+}
+
+/* FOOTER */
+footer {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 600px) {
+    .hero h1 {
+        font-size: 32px;
+    }
+}
