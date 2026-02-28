@@ -1,16 +1,24 @@
-function Payment() {
+export default function Payment() {
   return (
     <section className="section">
       <h2>Payment</h2>
-      <p>You can pay securely via UPI after project confirmation.</p>
+      <p>
+        After submitting your requirements, you can make the advance payment
+        using UPI.
+      </p>
 
-      <p><strong>UPI ID:</strong> yashr3220@okaxis</p>
-      <p><strong>Accepted Apps:</strong> Google Pay, PhonePe, Paytm</p>
+      <div className="card">
+        <p><strong>UPI ID:</strong> yashr3220@okaxis</p>
+        <p><strong>Accepted:</strong> Google Pay, PhonePe, Paytm</p>
 
-      {/* Optional QR Image */}
-      {/* <img src="/upi-qr.png" alt="UPI QR" width="200" /> */}
+        <a
+          className="btn"
+          href="https://wa.me/919719478845?text=Hi%20I%20have%20submitted%20the%20project%20form%20and%20want%20to%20make%20payment"
+          target="_blank"
+        >
+          Confirm Payment on WhatsApp
+        </a>
+      </div>
     </section>
   );
 }
-
-export default Payment;

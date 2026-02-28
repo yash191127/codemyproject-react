@@ -15,6 +15,7 @@ function App() {
       <Services />
       <WhyChoose />
       <OrderForm />
+      <Payment />
       <Contact />
       <Footer />
     </>
