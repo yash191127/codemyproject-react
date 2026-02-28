@@ -4,6 +4,8 @@ import Services from "./components/Services";
 import WhyChoose from "./components/WhyChoose";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import OrderForm from "./components/OrderForm";
+import Payment from "./components/Payment";
 
 function App() {
   return (
@@ -12,6 +14,7 @@ function App() {
       <About />
       <Services />
       <WhyChoose />
+      <OrderForm />
       <Contact />
       <Footer />
     </>
